@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jadwal Acara Real-Time - ARENA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/variables.css">
+  <link rel="stylesheet" href="../assets/css/global.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+  <link rel="stylesheet" href="../assets/css/pages/dashboard-satpam.css">
+</head>
+<body class="dashboard-page">
+  <aside class="sidebar">
+    <div class="brand">
+      <span class="brand-mark">A</span>
+      <span class="brand-name">ARENA</span>
+    </div>
+    <nav class="nav">
+      <a class="nav-item" href="dashboard-satpam.html">Dashboard</a>
+      <a class="nav-item" href="#">Jadwal Acara</a>
+    </nav>
+    <a class="logout" href="../login.html">Keluar</a>
+  </aside>
+
+  <main>
+    <header class="page-head">
+      <h1 class="page-title">Jadwal Acara Real-Time</h1>
+      <p class="page-sub">Masuk sebagai Satpam</p>
+    </header>
+
+    <section class="panel panel-schedule">
+      <h2 class="panel-title">Jadwal Aktif Hari Ini</h2>
+      <div class="table">
+        <div class="table-head">
+          <span>Waktu</span>
+          <span>Ruangan</span>
+          <span>Peminjam</span>
+          <span>Tanggal</span>
+          <span>Acara</span>
+          <span>Status</span>
+        </div>
+        <div class="table-body">
+          <div class="table-row">
+            <span>09.00-13.00</span>
+            <span>Auditorium TI</span>
+            <span>Himpunan Mahasiswa Teknologi Informasi</span>
+            <span>02 Oktober 2026</span>
+            <span>Seminar Nasional HMTI</span>
+            <span><span class="badge tone-red">Selesai</span></span>
+          </div>
+          <div class="table-row">
+            <span>10.00-11.00</span>
+            <span>RT 07</span>
+            <span>Himpunan Mahasiswa Teknologi Informasi</span>
+            <span>02 Oktober 2026</span>
+            <span>Dies Natalis JTI</span>
+            <span><span class="badge tone-green">Sedang Berlangsung</span></span>
+          </div>
+          <div class="table-row">
+            <span>12.00-17.00</span>
+            <span>LSI 1, 2, 3</span>
+            <span>Himpunan Mahasiswa Teknologi Informasi</span>
+            <span>02 Oktober 2026</span>
+            <span>Dialog Dosen Mahasiswa JTI</span>
+            <span><span class="badge tone-amber">Akan Datang</span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel panel-calendar">
+      <div class="month">September 2026</div>
+      <div class="weekdays">
+        <span>Minggu</span>
+        <span>Senin</span>
+        <span>Selasa</span>
+        <span>Rabu</span>
+        <span>Kamis</span>
+        <span>Jumat</span>
+        <span>Sabtu</span>
+      </div>
+      <div class="days">
+        <div class="day"></div>
+        <div class="day"><span class="chip tone-green">Kosong</span></div>
+        <div class="day">
+          <span class="chip chip-event tone-amber">Seminar Nasional...</span>
+          <span class="chip chip-event tone-amber">OPREC HMS (Him...</span>
+        </div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+        <div class="day"></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

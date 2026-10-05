@@ -1,0 +1,161 @@
+.dashboard-page {
+  padding: 20.6px 39px 40px 272px;
+}
+
+.page-head {
+  margin-bottom: 23.35px;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.page-sub {
+  margin-top: 3.35px;
+  font-size: 11px;
+  font-weight: 300;
+  color: var(--subtle);
+}
+
+.panel-schedule {
+  padding: 9px 21px 0 23px;
+}
+
+.panel-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.table {
+  margin-top: 30.5px;
+  overflow-x: auto;
+  font-size: 11px;
+}
+
+.table-head,
+.table-row {
+  display: grid;
+  grid-template-columns: 143px 140px 310px 160px 253px 1fr;
+  min-width: 1155px;
+}
+
+.table-head {
+  height: 24px;
+  border-bottom: 1px solid var(--line);
+  font-weight: 300;
+  color: var(--muted);
+}
+
+.table-row {
+  align-items: center;
+  height: 70px;
+  border-bottom: 1px solid var(--line);
+  font-weight: 400;
+}
+
+.table-row > :first-child {
+  padding-left: 4px;
+}
+
+.table-body .table-row:nth-child(2) {
+  height: 80px;
+}
+
+.table-body .table-row:last-child {
+  height: 69px;
+  border-bottom: 0;
+}
+
+.panel-calendar {
+  margin-top: 36px;
+  padding: 19px 17px 19px 14px;
+}
+
+.month {
+  display: flex;
+  align-items: center;
+  width: 242px;
+  height: 35px;
+  padding-left: 19px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface-2);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.weekdays,
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  column-gap: 10px;
+}
+
+.weekdays {
+  margin: 35.3px 0 19.3px;
+  font-size: 11px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.days {
+  grid-auto-rows: 142px;
+  row-gap: 28px;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 17px;
+  padding: 21px 20px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface-2);
+}
+
+@media (max-width: 1000px) {
+  .sidebar {
+    position: static;
+    width: auto;
+    height: auto;
+    margin-bottom: 24px;
+  }
+
+  .logout {
+    margin-top: 32px;
+  }
+
+  .dashboard-page {
+    padding: 13px 11px 40px;
+  }
+
+  .panel-schedule {
+    padding: 9px 16px 0;
+  }
+
+  .panel-calendar {
+    padding: 19px 14px;
+  }
+
+  .month {
+    width: 100%;
+  }
+
+  .weekdays,
+  .days {
+    column-gap: 6px;
+  }
+
+  .days {
+    grid-auto-rows: 110px;
+    row-gap: 12px;
+  }
+
+  .day {
+    padding: 12px 6px;
+  }
+}
